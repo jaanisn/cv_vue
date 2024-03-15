@@ -4,10 +4,10 @@ import { defineStore } from "pinia";
 export const useTranslationStore = defineStore("translationStore", () => {
   const translations = ref({
     name: { En: "Janis", Lv: "Jānis" },
-    surname: { En: "Stals", Lv: "Štāls" },
+    surname: { En: "Narbuts", Lv: "Narbuts" },
     title: {
-      En: "Developer / Project Manager",
-      Lv: "Izstrādātājs / Projektu vadītājs",
+      En: "Sound engeneer",
+      Lv: "Skaņu inženieris",
     },
     shortAbout1: {
       En: "Highly skilled and accomplished ecommerce business developer with background in computer science",

@@ -22,7 +22,7 @@
               {{ translations.translations.name[translations.language] }} {{
                 translations.translations.surname[translations.language] }}
             </h1>
-            <h2>{{ translations.translations.title[translations.language] }}</h2>
+            <h2 class="text-xl">{{ translations.translations.title[translations.language] }}</h2>
           </div>
           <div class="max-w-48 mx-auto"><img class="rounded-full shadow-lg" src="@/assets/img/profile.jpeg" alt=""></div>
           <div>
